@@ -1,0 +1,28 @@
+.numbers-grid, .right-grid {
+    display: grid;
+    grid: repeat(3, 100px) / auto-flow;
+}
+
+input[type="text"]{
+    padding: 6px 12px;
+    margin-bottom: 10px;
+}
+
+.balance {
+    padding: 10px;
+    font-size: 32px;
+}
+
+.atm-button {
+    padding: 8px 14px;
+    background-color: #30336b;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.form-area {
+    background-color: #95afc0;
+    width: 50%;
+    margin: 0 auto;
+    height: 30vh;
+}
